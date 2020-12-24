@@ -1,65 +1,37 @@
-# smartquote README
+# SmartQuote
 
-This is the README for your extension "smartquote". After writing up a brief description, we recommend including the following sections.
+SmartQuote 插件用于自动修正中文文档里的引号。它假设 `“` 和 `”` 应当依次轮流出现。比如如下这行
 
-## Features
+> "中文"“中文""中文”“中文”“中文“”中文“”中文”
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+应当被修正为
 
-For example if there is an image subfolder under your extension project workspace:
+> “中文”“中文”“中文”“中文”“中文”“中文”“中文”
 
-\!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
+## 功能
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+![demo](images/demo.gif)
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-For example:
 
-This extension contributes the following settings:
+## 已知问题
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+目前无法处理多个不连续选择的情况。
 
-## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
-## Release Notes
+## 版本信息
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
+初始版本
 
-Initial release of ...
 
-### 1.0.1
 
-Fixed issue #.
+## License
 
-### 1.1.0
+MIT
 
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
