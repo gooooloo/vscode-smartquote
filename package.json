@@ -3,7 +3,7 @@
 	"name": "smartquote",
 	"displayName": "中文引号修正",
 	"description": "自动修正错乱的中文引号，使之依次成对出现",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.52.0"
 	},

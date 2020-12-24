@@ -16,6 +16,11 @@ SmartQuote 插件用于自动修正中文文档里的引号。它假设 `“` �
 
 
 
+## 用法
+1. 选中一部分文档内容 -> Command Pallete -> 输入 “Smart Quote”， 然后回车。这个是只修正选中部分。或者
+2. 什么都不选，直接 Command Pallete -> 输入 “Smart Quote”， 然后回车。这个是全部修正。
+
+
 
 ## 已知问题
 
